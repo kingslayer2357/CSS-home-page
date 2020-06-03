@@ -1,0 +1,349 @@
+body{
+  padding: 0;
+  margin:0;
+  background: black;
+}
+img{
+  position: relative;
+  top:0;
+  padding: 0;
+  margin: 0;
+
+}
+nav{
+  position: relative;
+  z-index:1;
+}
+button{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  z-index:1;
+  bottom:0px;
+  left:670px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color:#cf2323;
+  overflow: hidden;
+  background-color: transparent;
+  font-family: "Poppins",sans-serif;
+  border: 2px solid rgba(56,54,54,.7);
+  font-size: 18px;
+  /* background-color: rgba(56, 54, 54,.7) */
+}
+.navbar-brand{
+  font-family: "Poppins",sans-serif;
+  margin-top: 10px;
+  color:#cf2323;
+  overflow: hidden;
+  transition: 0.2s;
+  font-size:30px;
+
+}
+
+.navbar-brand:hover{
+
+color:#8a1717;
+}
+  .navbar-nav li{
+    margin-top: 10px;
+    overflow: hidden;
+    transition: 0.2s;
+    color: transparent;
+
+
+  }
+  .navbar-nav li a{
+    color:#cf2323;
+  }
+    .navbar-nav li a:hover{
+    color:#8a1717;
+    background-color: transparent;
+
+  }
+
+
+  a span{
+    position: absolute;
+  display: block;
+}
+a span:nth-child(1){
+  top:0;
+  left:-100%;
+  width:100%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent,#cf2323);
+
+}
+a:hover span:nth-child(1)
+{
+  left:100%;
+  transition: 1s;
+}
+a span:nth-child(3){
+  bottom: 0;
+  right:-100%;
+  width:100%;
+  height: 2px;
+  background: linear-gradient(270deg,transparent,#cf2323);
+
+}
+a:hover span:nth-child(3)
+{
+  right:100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+a span:nth-child(2){
+  right: 0;
+  top:-100%;
+  height:100%;
+  width: 2px;
+  background: linear-gradient(180deg,transparent,#cf2323);
+
+}
+a:hover span:nth-child(2)
+{
+  top:100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+a span:nth-child(4){
+  left: 0;
+  bottom:-100%;
+  height:100%;
+  width: 2px;
+  background: linear-gradient(360deg,transparent,#cf2323);
+
+}
+a:hover span:nth-child(4)
+{
+  bottom:100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
+.navbar-brand div{
+  display:inline;
+  font-size: 20px;
+  position:relative;
+}
+button:hover{
+  color:#8a1717;
+  background: #cf2323;
+  box-shadow:0 0 10px #cf2323,0 0 40px #cf2323,0 0 10px #cf2323;
+  transition-delay: 1s;
+  border:none;
+}
+button span{
+  position: absolute;
+display: block;
+}
+button span:nth-child(1){
+top:0;
+left:-100%;
+width:100%;
+height: 2px;
+background: linear-gradient(90deg,transparent,#cf2323);
+
+}
+button:hover span:nth-child(1)
+{
+left:100%;
+transition: 1s;
+}
+button span:nth-child(3){
+bottom: 0;
+right:-100%;
+width:100%;
+height: 2px;
+background: linear-gradient(270deg,transparent,#cf2323);
+
+}
+button:hover span:nth-child(3)
+{
+right:100%;
+transition: 1s;
+transition-delay: 0.5s;
+}
+button span:nth-child(2){
+right: 0;
+top:-100%;
+height:100%;
+width: 2px;
+background: linear-gradient(180deg,transparent,#cf2323);
+
+}
+button:hover span:nth-child(2)
+{
+top:100%;
+transition: 1s;
+transition-delay: 0.25s;
+}
+button span:nth-child(4){
+left: 0;
+bottom:-100%;
+height:100%;
+width: 2px;
+background: linear-gradient(360deg,transparent,#cf2323);
+
+}
+button:hover span:nth-child(4)
+{
+bottom:100%;
+transition: 1s;
+transition-delay: 0.75s;
+}
+.navbar-brand div{
+display:inline;
+font-size: 20px;
+position:relative;
+}
+.logo{
+  position: relative;
+  display:inline;
+  margin: 0;
+  padding: 0;
+  margin-right:10px;
+  width:25px;
+  height:25px;
+  z-index:1;
+}
+#codex{
+  display: inline;
+  position: relative;
+
+  width:40px;
+  height:40px;
+}
+button a{
+  color: #2196f3;
+  text-decoration: none;
+}
+button a:hover{
+text-decoration: none;
+}
+button:hover a{
+  color:#255784;
+}
+#nav-bottom{
+  width:100%;
+  bottom:0;
+  position: relative;
+}
+.category{
+  position: relative;
+  display: block;
+  font-family: "Poppins",sans-serif;
+  color:red;
+}
+h1{
+  text-align: center;
+  padding:10px 10px 10px 10px;
+  margin: 20px 400px 20px 400px;
+  color:#2a302c;
+  background: #cf2323;
+  box-shadow: 0 0 10px #cf2323,0 0 40px #cf2323,0 0 10px #cf2323;
+}
+.noi{
+  display: flex;
+  position: relative;
+  left:340px;
+  width:800px;
+  justify-content: space-between;
+  align-items: center;
+}
+.box{
+  position: relative;
+  font-family: 'Poppins',sans-serif;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  height:500px;
+  background:#060c21;
+  text-align: center;
+  margin-left:50px;
+
+}
+
+.box:before{
+  color:linear-gradient(45deg,white,orange);
+
+}
+.box .content h2{
+  position: relative;
+  top:100px;
+  font-size:200px;
+  margin: 0;
+  padding: 0;
+  left:30px;
+  transition: 0.5s;
+  color:rgba(255,255,255,.1);
+}
+.box:hover .content h2{
+  top:10px;
+}
+.box .content h3{
+  position: relative;
+  top: -150px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  color:#fff;
+
+}
+.box .content p{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  top:-130px;
+  color:#fff;
+  font-size: 16px;
+}
+.box .content a{
+  position: relative;
+  top:-100px;
+  color:#fff;
+  border: 1px solid #fff;
+  padding: 5px;
+  transition: 0.5s;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(-40px);
+  display: inline-block;
+}
+.box:hover .content a{
+  transform: translateY(0px);
+  visibility: visible;
+  opacity: 1;
+}
+.content a:hover{
+  background: #fff;
+  color:#060c21;
+  text-decoration: none;
+}
+.box:before{
+  content: "";
+  position:absolute;
+  top:-2px;
+  bottom:-2px;
+  left:-2px;
+  right:-2px;
+  transform: skew(2deg,2deg);
+  background-color:#fff;
+  z-index: -1;
+}
+.box:after{
+  content:"";
+  position: absolute;
+  top:0px;
+  left:0px;
+  height:100%;
+  width:50%;
+  background: rgba(255,255,255,0.025);
+}
+.box:nth-child(1):before{
+  background: linear-gradient(315deg,#ff0057,#e64a19);
+}
+.box:nth-child(2):before{
+  background: linear-gradient(315deg,#1f18a8,#4293f5);
+}
